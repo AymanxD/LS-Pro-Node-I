@@ -17,7 +17,7 @@ app.get('/name', (req, res) => {
 const friends = ['Rimpi','Vidhita','Bandna'];
 app.get('/friends', (req, res) => {
   res.send(friends);
-});
+}); 
 
 const favoritefilm = {
   name: 'Usual Suspects',
